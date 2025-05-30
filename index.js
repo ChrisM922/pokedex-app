@@ -18,7 +18,10 @@ app.get('/', (req, res) => {
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: #ededed;
+        background-image: url('/background.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
         font-family: 'Press Start 2P', system-ui, -apple-system, sans-serif;
       }
       .pokedex-container {
